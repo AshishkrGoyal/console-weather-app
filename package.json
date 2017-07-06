@@ -1,0 +1,24 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "this is a console simple weather application",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshishkrGoyal/console-weather-app.git"
+  },
+  "author": "AshishkrGoyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshishkrGoyal/console-weather-app/issues"
+  },
+  "homepage": "https://github.com/AshishkrGoyal/console-weather-app#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "request": "^2.81.0",
+    "yargs": "^8.0.2"
+  }
+}
