@@ -5,7 +5,7 @@ const express = require('express');
 const request = require('request');
 const argv = require('yargs').argv;
 var app = express();
-var api_key = "d9422ae85c8faa5ed76bbfd803aef127";
+var api_key = "**********************";
 /*var city = argv.c||"Noida";*/
 var city = process.argv[2]||"Noida";
 var URI =  "http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+api_key;
